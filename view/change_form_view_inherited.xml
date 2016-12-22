@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="changes_origins_inherits_change_form_view">
+            <field name="name">changes.origins.inherits.change.form.view</field>
+            <field name="model">change.management.change</field>
+            <field name="inherit_id" ref="change_management.change_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook/page[@string='Description']" position="after">
+                    <page string='Origins info'/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
