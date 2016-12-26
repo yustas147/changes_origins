@@ -14,8 +14,7 @@
                                                         change_management.change_form_view''',
     'depends': [
         'base',
-        'change_management',
-        'changes_origins'
+        'change_management'
     ],
     'demo': [],
     'data': [
